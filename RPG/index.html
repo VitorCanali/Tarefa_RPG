@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <title>RPG</title>
+</head>
+<body>
+    <div class="container">
+        <!-- TODO o seu conteúdo HTML: h2, inputs, selects, botão e #resultado -->
+   
+    <h2>Crie o seu personagem de RPG</h2>
+
+    <p>Digite o nome: <input type="text" id="nome" name="f_nome"/></p>
+
+    <p>Escolha a classe:</p>
+    <select id="classes" size="1">
+        <option value="">Selecione</option>
+        <option value="guerreiro">Guerreiro</option>
+        <option value="mago">Mago</option>
+        <option value="paladino">Paladino</option>
+        <option value="clerigo">Clérigo</option>
+        <option value="barbaro">Bárbaro</option>
+        <option value="arqueiro">Arqueiro</option>
+        <option value="druida">Druida</option>
+        <option value="necromante">Necromante</option>
+        <option value="bardo">Bardo</option>
+    </select>
+
+    <p>Escolha a magia:</p>
+    <select id="magias" size="1">
+        <option value="">Selecione</option>
+        <option value="fogo">🔥 Fogo</option>
+        <option value="agua">💧 Água</option>
+        <option value="ar">🌪️ Ar</option>
+        <option value="terra">🪨 Terra</option>
+        <option value="eletricidade">⚡ Eletricidade</option>
+        <option value="gelo">❄️ Gelo</option>
+        <option value="natureza">🌿 Natureza</option>
+        <option value="luz">☀️ Luz</option>
+        <option value="trevas">🌑 Trevas</option>
+        <option value="sangue">🩸 Sangue</option>
+        <option value="caos">🌀 Caos</option>
+        <option value="magia">✨ Magia</option>
+        <option value="mente">🧠 Mente</option>
+        <option value="tempo">⏳ Tempo</option>
+    </select>
+
+    <p>Escolha a habilidade:</p>
+    <select id="habilidades" size="1">
+        <option value="">Selecione</option>
+        <option value="explosao-ignea">Explosão Ígnea</option>
+        <option value="correnteza">Correnteza</option>
+        <option value="corte-de-vento">Corte de Vento</option>
+        <option value="pele-de-pedra">Pele de Pedra</option>
+        <option value="descarga">Descarga</option>
+        <option value="congelamento">Congelamento</option>
+        <option value="regeneracao">Regeneração</option>
+        <option value="julgamento">Julgamento</option>
+        <option value="sombra-profunda">Sombra Profunda</option>
+        <option value="acelerar">Acelerar</option>
+    </select>
+
+    <br><br>
+    <button type="button" onclick="selecionarClasse()">Criar Personagem</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script> 
+</div>
+
+</body>
+</html>
