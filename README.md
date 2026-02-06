@@ -14,7 +14,7 @@ A página permite que o usuário:
 * Escolha a **classe**, a **magia** e a **habilidade** do personagem.
 * Clique em **"Criar Personagem"** para gerar uma mensagem personalizada mostrando o personagem em ação.
 
-O projeto combina interação com o usuário, manipulação do DOM e validação de campos utilizando JavaScript.
+O projeto combina interação com o usuário e validação de campos utilizando JavaScript.
 
 ---
 
